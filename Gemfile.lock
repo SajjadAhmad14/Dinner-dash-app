@@ -79,6 +79,8 @@ GEM
     faker (2.19.0)
       i18n (>= 1.6, < 2)
     ffi (1.15.4)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.8.11)
@@ -176,6 +178,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
+    skylight (5.1.1)
+      activesupport (>= 5.2.0)
     spring (3.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -219,6 +223,7 @@ DEPENDENCIES
   byebug
   factory_bot_rails
   faker
+  figaro
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
@@ -227,6 +232,7 @@ DEPENDENCIES
   rails (~> 6.1.4, >= 6.1.4.1)
   rspec-rails (~> 5.0.0)
   sass-rails (>= 6)
+  skylight
   spring
   turbolinks (~> 5)
   tzinfo-data
